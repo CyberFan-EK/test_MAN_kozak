@@ -15,7 +15,7 @@ async def cmd_start(message: types.Message):
             types.KeyboardButton(text="Вчителі"),
             types.KeyboardButton(text="Розклад"),
             types.KeyboardButton(text="OpenAI"),
-            types.KeyboardButton(text="Адмінпанель")
+            types.KeyboardButton(text="Адмін")
         ],
     ]
     keyboard = types.ReplyKeyboardMarkup(
